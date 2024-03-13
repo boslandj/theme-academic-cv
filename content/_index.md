@@ -165,25 +165,6 @@ sections:
     design:
       columns: '2'
       view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
   - block: contact
     id: contact
     content:
